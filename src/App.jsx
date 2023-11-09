@@ -14,8 +14,10 @@ function App() {
         </div>
         <div className="des">
           <div className="groupName">
-            <p>{name}</p>
-            <p>{count} Members</p>
+            <p className="nameP">{name}</p>
+            <p className="countP">
+              {count} <span>Members</span>
+            </p>
           </div>
           <div className="gpDescription">
             <p> {text}</p>
