@@ -2,6 +2,57 @@ body {
   margin: 0;
   padding: 0;
 }
+p {
+  margin: 0px;
+  padding: 0px;
+}
 .gpAvatar {
+  height: 40%;
   width: 350px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.container {
+  border-radius: 30px;
+  max-width: 350px;
+  border: 1px solid red;
+}
+.groupName {
+  margin-bottom: 10px;
+}
+.des {
+  padding: 20px 30px;
+}
+.gpDescription {
+  margin-bottom: 10px;
+}
+.actions {
+  width: 100%;
+  display: flex;
+}
+.joinBtn {
+  border-style: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: blueviolet;
+  font-weight: 600;
+  flex: 1;
+}
+.shareGroup {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  border-left: 1px solid rgb(204, 204, 204);
+}
+.uploadIcon {
+  width: 14px;
+  margin-right: 5px;
+}
+.shareBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  background-color: white;
 }
