@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100hw;
 }
 p {
   margin: 0px;
@@ -15,7 +17,7 @@ p {
 .container {
   border-radius: 30px;
   max-width: 350px;
-  border: 1px solid red;
+  border: 1px solid rgb(226, 226, 226);
 }
 .groupName {
   margin-bottom: 10px;
@@ -31,9 +33,10 @@ p {
   display: flex;
 }
 .joinBtn {
+  margin-right: 15px;
   border-style: none;
   border-radius: 20px;
-  padding: 10px 30px;
+  padding: 10px 25px;
   color: blueviolet;
   font-weight: 600;
   flex: 1;
