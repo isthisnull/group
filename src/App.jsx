@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
-
+import styled from "styled-components";
+const container = styled.div`
+  width: 400px;
+`;
 function App() {
   const name = "Space Riders";
   const count = 4;
